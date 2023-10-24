@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Pin : MonoBehaviour
 {
-    public PinCount pinCounter;
-    public Rigidbody pin;
-    private bool isKnockedDown = false;
+    public bool isKnockedDown = false;
+    private Vector3 ogPos;
 
-    // Start is called before the first frame update
-    void Start()
+
+    private void Start()
     {
-        pinCounter = FindObjectOfType<PinCount>();  
-        pin = GetComponent<Rigidbody>();
+        ogPos = transform.position;
     }
 
     // Update is called once per frame
@@ -21,7 +19,22 @@ public class Pin : MonoBehaviour
         if (!isKnockedDown && (transform.rotation.x >= 0.2f || transform.rotation.z >= 0.2f))
         {
             isKnockedDown = true;
-            pinCounter.PinKnockedDown();
         }
+    }
+    public IEnumerator resetPin(float duration) 
+    { 
+        Vector3 startPos = transform.position;
+        float currentTime = 0;
+
+        while(currentTime < duration)
+        {
+            transform.position = Vector3.Lerp(startPos, ogPos, currentTime / duration);
+            currentTime += Time.deltaTime;
+            yield return null;
+        }
+        transform.position = ogPos;
+        transform.rotation = Quaternion.identity;
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
+        GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
     }
 }
