@@ -8,6 +8,7 @@ using Unity.XR.CoreUtils;
 public class PinCount : MonoBehaviour
 {
     public TextMeshProUGUI pinCount;
+    private int score = 0;
     private int pinsKnocked;
     private Pin[] pins;
     public float resetTime = 1.0f;
@@ -41,11 +42,13 @@ public class PinCount : MonoBehaviour
                 pinsKnocked++;
             }
         }
-        pinCount.text = pinsKnocked + "";
+
+        pinCount.text = score + pinsKnocked + "";
     }
 
     public void Reset()
     {
+        score += pinsKnocked;
         // iterate through all the pins in the pins list
         foreach (Pin pin in pins)
         {
