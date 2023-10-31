@@ -101,7 +101,7 @@ PlayerSettings:
   xboxEnableFitness: 0
   visibleInBackground: 1
   allowFullscreenSwitch: 1
-  fullscreenMode: 1
+  fullscreenMode: 3
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -137,10 +137,10 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: -5259681608425256700, guid: bf02281bee8b56c459fd0c6e435c6e74, type: 2}
+  - {fileID: 1254535577368542992, guid: bf02281bee8b56c459fd0c6e435c6e74, type: 2}
   - {fileID: 11400000, guid: 26d2a7f676d77e445b98d3c38fd2dbc5, type: 2}
   - {fileID: 11400000, guid: cc88431195fd9e94981c0468a2ebfb71, type: 2}
-  - {fileID: -8853209944863567728, guid: 4e816493d410def42bb668aeeaf90fae, type: 2}
+  - {fileID: -1142494737759945940, guid: 4e816493d410def42bb668aeeaf90fae, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
