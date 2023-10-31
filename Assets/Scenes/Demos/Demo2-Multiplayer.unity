@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1192121884}
-  m_IndirectSpecularColor: {r: 0.4294101, g: 0.46480018, b: 0.49965012, a: 1}
+  m_IndirectSpecularColor: {r: 0.15442081, g: 0.1828949, b: 0.21371748, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 276549287}
   - component: {fileID: 276549286}
   - component: {fileID: 276549285}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Stats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1153,6 +1153,10 @@ PrefabInstance:
       value: XR Device Simulator
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1173,7 +1177,7 @@ GameObject:
   - component: {fileID: 617356108}
   - component: {fileID: 617356107}
   - component: {fileID: 617356106}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1441,7 +1445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 704966625}
   - component: {fileID: 704966626}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HMD Info Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9807,7 +9811,7 @@ GameObject:
   - component: {fileID: 8340661700423856533}
   - component: {fileID: 6713470030835725394}
   - component: {fileID: 1438897303834966593}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ray Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9848,7 +9852,7 @@ GameObject:
   - component: {fileID: 8073169433611676958}
   - component: {fileID: 6817704503702104281}
   - component: {fileID: 1171408739821332170}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ray Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11000,7 +11004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5548300561439207279}
   - component: {fileID: 54541284065889038}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gaze Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11016,7 +11020,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 669338804194718407}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gaze Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11048,7 +11052,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3127728406600335812}
   - component: {fileID: 3127728406600335815}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Input Action Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11250,7 +11254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3127728407676174907}
   - component: {fileID: 3127728407676174906}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: XR Interaction Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11268,7 +11272,7 @@ GameObject:
   - component: {fileID: 3127728408198131895}
   - component: {fileID: 3127728408198131894}
   - component: {fileID: 3127728408198131892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11473,7 +11477,7 @@ GameObject:
   - component: {fileID: 3701198751540665}
   - component: {fileID: 6688015754394127350}
   - component: {fileID: 139700480325664195}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Direct Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11492,7 +11496,7 @@ GameObject:
   - component: {fileID: 6407207605146634919}
   - component: {fileID: 1430782341002201243}
   - component: {fileID: 5801412847709638723}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gaze Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11524,7 +11528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8424601472215846176}
   - component: {fileID: 5263222901400028798}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Controller Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12509,7 +12513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2160322978258062803}
   - component: {fileID: 7712547943903841384}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Locomotion System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13142,7 +13146,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3459392257809823009}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Controller Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13192,7 +13196,7 @@ GameObject:
   - component: {fileID: 7002313976221228758}
   - component: {fileID: 5022186744105544481}
   - component: {fileID: 8599008251115684448}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Grab Move
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13226,7 +13230,7 @@ GameObject:
   - component: {fileID: 3725602586617221823}
   - component: {fileID: 509604627088906895}
   - component: {fileID: 6599448040038298548}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Poke Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13669,7 +13673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 706305683307808450}
   - component: {fileID: 3656114936363037249}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Climb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13686,7 +13690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7640130199799992002}
   - component: {fileID: 4710497675207233396}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Poke Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13703,7 +13707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 424857286834844560}
   - component: {fileID: 7212809981820340312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Controller Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14245,7 +14249,7 @@ GameObject:
   - component: {fileID: 6694496368962475720}
   - component: {fileID: 1175096506656305830}
   - component: {fileID: 4531192051009109463}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Teleport Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14588,7 +14592,7 @@ GameObject:
   - component: {fileID: 8223754799590888524}
   - component: {fileID: 3385890771267992067}
   - component: {fileID: 8349061880342400054}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Direct Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14868,7 +14872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1994613857004785704}
   - component: {fileID: 7303196169906915384}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Teleportation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14915,7 +14919,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4134505310334538147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: XR Interaction Setup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14931,7 +14935,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9155051865267704364}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Controller Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14949,7 +14953,7 @@ GameObject:
   - component: {fileID: 333472646284256553}
   - component: {fileID: 2728902656706348028}
   - component: {fileID: 6321641680594034669}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Turn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15140,7 +15144,7 @@ GameObject:
   - component: {fileID: 568002670540408244}
   - component: {fileID: 7690080514260253360}
   - component: {fileID: 6016779121718351791}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TunnelingVignette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15178,7 +15182,7 @@ GameObject:
   - component: {fileID: 3127728407058736456}
   - component: {fileID: 3297350934172959462}
   - component: {fileID: 7873184976584795772}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15304,7 +15308,7 @@ GameObject:
   - component: {fileID: 1318600020032091814}
   - component: {fileID: 2804932081934335638}
   - component: {fileID: 8821029317575972781}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Poke Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15644,7 +15648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5474219472814172891}
   - component: {fileID: 6962680227710020461}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Poke Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16034,7 +16038,7 @@ GameObject:
   - component: {fileID: 4564216430799327926}
   - component: {fileID: 9014170783845293763}
   - component: {fileID: 8074195217660923242}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16329,7 +16333,7 @@ GameObject:
   - component: {fileID: 9014170784879080145}
   - component: {fileID: 3580832738715915967}
   - component: {fileID: 6206097800277842872}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Teleport Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16497,7 +16501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9014170785323426436}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Camera Offset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16761,7 +16765,7 @@ GameObject:
   - component: {fileID: 3711799366663282333}
   - component: {fileID: 9014170785329995299}
   - component: {fileID: 2429146837569857640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16857,7 +16861,7 @@ GameObject:
   - component: {fileID: 9014170785502690978}
   - component: {fileID: 3127728407058736452}
   - component: {fileID: 9014170785502690983}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -17048,7 +17052,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1507988018232711832}
   - component: {fileID: 9168142744806673430}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Move
   m_TagString: Untagged
   m_Icon: {fileID: 0}
