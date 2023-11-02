@@ -16,11 +16,9 @@ public class Pin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isKnockedDown && (transform.rotation.x >= 0.2f || transform.rotation.z >= 0.2f))
-        {
-            isKnockedDown = true;
-        }
+        
     }
+
     public IEnumerator resetPin(float duration) 
     { 
         Vector3 startPos = transform.position;
@@ -36,5 +34,15 @@ public class Pin : MonoBehaviour
         transform.rotation = Quaternion.identity;
         GetComponent<Rigidbody>().velocity = Vector3.zero;
         GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+
+        isKnockedDown = false;
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ball") || collision.gameObject.CompareTag("Pin"))
+        {
+            isKnockedDown = true;
+        }
     }
 }

@@ -8,8 +8,8 @@ using Unity.XR.CoreUtils;
 public class PinCount : MonoBehaviour
 {
     public TextMeshProUGUI pinCount;
-    private int score = 0;
-    private int pinsKnocked;
+    public int score = 0;  // DEBUG ONLY, RESET TO PRIVATE
+    public int pinsKnocked = 0;  // DEBUG ONLY, RESET TO PRIVATE
     private Pin[] pins;
     public float resetTime = 1.0f;
     public bool test = false;
@@ -42,8 +42,6 @@ public class PinCount : MonoBehaviour
                 pinsKnocked++;
             }
         }
-
-        pinCount.text = score + pinsKnocked + "";
     }
 
     public void Reset()
@@ -55,5 +53,6 @@ public class PinCount : MonoBehaviour
             // reset the position and rotation of the pin
             StartCoroutine(pin.resetPin(resetTime));
         }
+        pinsKnocked = 0;
     }
 }

@@ -14340,15 +14340,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8818402735288584948, guid: 8ac2d58751c4c714ab679a04ae556a02, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.496
+      value: 1.499
       objectReference: {fileID: 0}
     - target: {fileID: 8818402735288584948, guid: 8ac2d58751c4c714ab679a04ae556a02, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.641
+      value: -3.26
       objectReference: {fileID: 0}
     - target: {fileID: 8818402735288584948, guid: 8ac2d58751c4c714ab679a04ae556a02, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.748
+      value: -7.71
       objectReference: {fileID: 0}
     - target: {fileID: 8818402735288584948, guid: 8ac2d58751c4c714ab679a04ae556a02, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15330,7 +15330,7 @@ GameObject:
   - component: {fileID: 6128795467671757283}
   m_Layer: 0
   m_Name: Pin_7
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15600,7 +15600,7 @@ GameObject:
   - component: {fileID: 4944008078115231696}
   m_Layer: 0
   m_Name: Pin_4
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15996,7 +15996,7 @@ GameObject:
   - component: {fileID: 8488430168672231456}
   m_Layer: 0
   m_Name: Pin_6
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16157,7 +16157,7 @@ GameObject:
   - component: {fileID: 7972273418898299493}
   m_Layer: 0
   m_Name: Pin_9
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16572,7 +16572,7 @@ GameObject:
   - component: {fileID: 1531264170865161373}
   m_Layer: 0
   m_Name: Ball (2)
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17029,7 +17029,7 @@ GameObject:
   - component: {fileID: 1531264170958979001}
   m_Layer: 0
   m_Name: Ball (4)
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17384,7 +17384,7 @@ GameObject:
   - component: {fileID: 1531264171184608889}
   m_Layer: 0
   m_Name: Ball (1)
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17959,7 +17959,7 @@ GameObject:
   - component: {fileID: 1531264171188520769}
   m_Layer: 0
   m_Name: Ball (3)
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19527,7 +19527,7 @@ GameObject:
   - component: {fileID: 1531264172233153275}
   m_Layer: 0
   m_Name: Ball (5)
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20697,7 +20697,7 @@ Transform:
   m_GameObject: {fileID: 7274392472760151865}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.175, y: 0.993, z: 12.293}
+  m_LocalPosition: {x: 0.998, y: 0.179, z: -7.156}
   m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -20877,7 +20877,7 @@ GameObject:
   - component: {fileID: 5347201322486407921}
   m_Layer: 0
   m_Name: Pin_3
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21803,7 +21803,7 @@ GameObject:
   - component: {fileID: 7363609657140981767}
   m_Layer: 0
   m_Name: Pin_2
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21826,7 +21826,7 @@ GameObject:
   - component: {fileID: 7913895630296649919}
   m_Layer: 0
   m_Name: Pin_5
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21864,7 +21864,7 @@ GameObject:
   - component: {fileID: 5452952961386791006}
   m_Layer: 0
   m_Name: Pins
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21882,6 +21882,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pinCount: {fileID: 2000081519}
+  score: 0
+  pinsKnocked: 0
   resetTime: 1
   test: 0
 --- !u!4 &5541009490275764737
@@ -22155,7 +22157,7 @@ GameObject:
   - component: {fileID: 6236703959153738065}
   m_Layer: 0
   m_Name: Pin_10
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23707,7 +23709,7 @@ GameObject:
   - component: {fileID: 7274392472760151867}
   m_Layer: 0
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23911,7 +23913,7 @@ GameObject:
   - component: {fileID: 7837191895730337936}
   m_Layer: 0
   m_Name: Pin_8
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24057,7 +24059,7 @@ GameObject:
   - component: {fileID: 8377281474415362650}
   m_Layer: 0
   m_Name: Pin_1
-  m_TagString: Untagged
+  m_TagString: Pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
