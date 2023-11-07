@@ -5,7 +5,7 @@ using UnityEngine;
 public class Hover : MonoBehaviour
 {
     float degreeValue = 0;
-    float magnitude = 14;
+    public float magnitude = 14;
     // Start is called before the first frame update
     void Start()
     {
