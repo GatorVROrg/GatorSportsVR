@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ball
   - Pin
+  - Scorecard Row
   layers:
   - Default
   - TransparentFX
