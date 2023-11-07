@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class PlayerSpawn : MonoBehaviour
 {
+    public Transform spawnTransform;
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        transform.position = spawnTransform.position;   
     }
 }
