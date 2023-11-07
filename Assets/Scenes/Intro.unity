@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.76566124, g: 0.95277846, b: 1.1083616, a: 1}
+  m_IndirectSpecularColor: {r: 0.7657986, g: 0.9530119, b: 1.1086669, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -800,7 +800,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 887399224}
-  - component: {fileID: 887399223}
   m_Layer: 0
   m_Name: room
   m_TagString: Untagged
@@ -808,19 +807,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &887399223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887399222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ffe0586fcc954495a3bf5170f507a3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axisOfRotation: {fileID: 5148817236757153186}
 --- !u!4 &887399224
 Transform:
   m_ObjectHideFlags: 0
@@ -1372,6 +1358,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450651626815838}
+  - component: {fileID: 919132147906485221}
   m_Layer: 0
   m_Name: IntroScene
   m_TagString: Untagged
@@ -1379,6 +1366,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &919132147906485221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147906485220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1668063d76a754badb7ed6bdb188d121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &1050135703287367444
 MeshRenderer:
   m_ObjectHideFlags: 0
