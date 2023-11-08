@@ -8,15 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Demos/Demo1.unity
     guid: 434d7593ca7207f4da80c53b5732a25f
-  - enabled: 0
-    path: Assets/Scenes/BowlingScene.unity
-    guid: 290fdf2fe2decba4e97cf3106fdc3587
-  - enabled: 1
-    path: Assets/Scenes/Demos/Demo2-Multiplayer.unity
-    guid: 0030d1899e83f934cbc296a25690a35a
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 22a985aa22d948a49834f166b6aa3245
+  - enabled: 1
+    path: Assets/Scenes/BowlingScene.unity
+    guid: 290fdf2fe2decba4e97cf3106fdc3587
+  - enabled: 0
+    path: Assets/Scenes/Demos/Demo2-Multiplayer.unity
+    guid: 0030d1899e83f934cbc296a25690a35a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 26d2a7f676d77e445b98d3c38fd2dbc5, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bf02281bee8b56c459fd0c6e435c6e74, type: 2}
