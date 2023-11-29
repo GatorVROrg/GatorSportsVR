@@ -9,8 +9,10 @@ public class VRRigReferences : MonoBehaviour
 
     public Transform root;
     public Transform head;
+    public MeshFilter headAesthetic;
     public Transform leftHand;
     public Transform rightHand;
+    public GameObject[] modelsHat;
 
     private void Awake()
     {
