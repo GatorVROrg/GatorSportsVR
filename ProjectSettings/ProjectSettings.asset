@@ -136,7 +136,11 @@ PlayerSettings:
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 26d2a7f676d77e445b98d3c38fd2dbc5, type: 2}
+  - {fileID: -5259681608425256700, guid: bf02281bee8b56c459fd0c6e435c6e74, type: 2}
+  - {fileID: 11400000, guid: cc88431195fd9e94981c0468a2ebfb71, type: 2}
+  - {fileID: -8853209944863567728, guid: 4e816493d410def42bb668aeeaf90fae, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -865,11 +869,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 11912a40-7c46-4e9e-b9be-9fb37701bb24
+  cloudProjectId: 9e4ed0e8-b6fa-429d-abd3-60370154cb71
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: GatorQuestVR
-  organizationId: gatorquestvr
+  projectName: GatorSportsVR
+  organizationId: gatorsportsvr
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
