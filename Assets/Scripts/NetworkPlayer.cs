@@ -8,8 +8,10 @@ public class NetworkPlayer : NetworkBehaviour
 
     public Transform root;
     public Transform head;
+    public MeshFilter headAesthetic;
     public Transform leftHand;
     public Transform rightHand;
+    public GameObject[] modelsHat;
 
     public Renderer[] meshToDisable;
 
@@ -40,6 +42,20 @@ public class NetworkPlayer : NetworkBehaviour
 
             rightHand.position = VRRigReferences.Singleton.rightHand.position;
             rightHand.rotation = VRRigReferences.Singleton.rightHand.rotation;
+
+            for(int i = 0; i < modelsHat.Length; i++)
+            {
+                if(VRRigReferences.Singleton.modelsHat[i].activeSelf)
+                {
+                    modelsHat[i].SetActive(true);
+                }
+                else
+                {
+                    modelsHat[i].SetActive(false);
+                }
+            }
+
+            headAesthetic.mesh = VRRigReferences.Singleton.headAesthetic.mesh;
         }
     }
 }
